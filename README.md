@@ -8,6 +8,8 @@
 
 `init database and config.json`
 
+Supports only 8 decimal places
+
 pm2 start process.js --name "process" --no-autorestart
 
 pm2 start start.js --name "start" --no-autorestart
